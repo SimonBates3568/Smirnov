@@ -10,10 +10,29 @@ const ServicesPage = () => {
     <Box p={padding}>
       <Heading size={headingSize}>Services</Heading>
       <Text mt={2} fontSize={textSize}>
-        We offer a range of architectural services, from private homes to large-scale commercial projects.
+        Smirnov offers comprehensive design services tailored to your needs:
+        <br />
+        <br />
+        ✅ Architectural Design – Full-scale planning and blueprints for new constructions.
+        <br />
+        ✅ Interior Design – Creating functional and stylish interiors.
+        <br />
+        ✅ Renovation & Remodeling – Transforming spaces with a modern touch.
+        <br />
+        ✅ Consultations – Personalized guidance to bring your vision to life.
+      </Text>
+      <Text mt={2} fontSize={textSize}>
+        How It Works:
+        <br />
+        <br />
+        1️⃣ Consultation – Understanding your project needs.
+        <br />
+        2️⃣ Design & Planning – Developing creative concepts and detailed plans.
+        <br />
+        3️⃣ Execution – Overseeing the design process to ensure perfection.
       </Text>
       <Button mt={4} size={useBreakpointValue({ base: 'sm', md: 'md' })}>
-        Get in Touch
+        Schedule a Consultation
       </Button>
     </Box>
   );
