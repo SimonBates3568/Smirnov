@@ -13,6 +13,7 @@ const Footer = () => {
                     <Link href="/contact" fontSize="sm" _hover={{ color: 'teal.300' }}>Contact Us</Link>
                 </HStack>
             </VStack>
+            <Text fontSize="sm">Created by CubiColour NL</Text>
         </Box>
     );
 };

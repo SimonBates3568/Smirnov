@@ -1,9 +1,21 @@
-import { configureStore } from '@reduxjs/toolkit'
+// filepath: /Users/simonbates/Desktop/maria_peter_website/src/store.js
+import { createStore } from 'redux';
 
-const store = configureStore({
-  reducer: {
-    // Add your reducers here
-  },
-})
+// Initial state
+const initialState = {
+    // Define your initial state here
+};
 
-export default store
+// Reducer
+const rootReducer = (state = initialState, action) => {
+    switch (action.type) {
+        // Define your action types and state updates here
+        default:
+            return state;
+    }
+};
+
+// Create store
+const store = createStore(rootReducer);
+
+export default store;

@@ -19,7 +19,7 @@ const Navbar = () => {
                     <Link href="/About" _hover={{ color: 'teal.300' }}>About</Link>
                     <Link href="/Portfolio" _hover={{ color: 'teal.300' }}>Portfolio</Link>
                     <Link href="/Services" _hover={{ color: 'teal.300' }}>Services</Link>
-                    <Link href="/Contact" _hover={{ color: 'teal.300' }}>Contact Us</Link>
+                    <Link href="/Contact" _hover={{ color: 'teal.300' }}>Contact</Link>
                 </HStack>
             </Flex>
         </Box>
